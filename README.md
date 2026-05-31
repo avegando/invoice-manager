@@ -27,15 +27,15 @@
 
 | Dashboard | Invoice List |
 |-----------|-------------|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Invoice List](docs/screenshots/invoice-list.png) |
+| ![Dashboard](dashboard.png) | ![Invoice List](invoice-list.png) |
 
 | Create Invoice | Invoice Detail |
 |---------------|----------------|
-| ![Create](docs/screenshots/create-invoice.png) | ![Detail](docs/screenshots/invoice-detail.png) |
+| ![Create](create-invoice.png) | ![Detail](invoice-detail.png) |
 
 | Print View | Mobile Edit |
 |-----------|-------------|
-| ![Print](docs/screenshots/print-view.png) | ![Mobile](docs/screenshots/mobile-edit.png) |
+| ![Print](print-view.png) | ![Mobile](mobile-edit.png) |
 
 ---
 
