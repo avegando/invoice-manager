@@ -1,22 +1,40 @@
-# 🧾 Invoice Manager — Free & Open Source
+<div align="center">
 
-![Invoice Manager](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+```
+ ██╗███╗   ██╗██╗   ██╗ ██████╗ ██╗ ██████╗███████╗███████╗██╗      ██████╗ ██╗    ██╗
+ ██║████╗  ██║██║   ██║██╔═══██╗██║██╔════╝██╔════╝██╔════╝██║     ██╔═══██╗██║    ██║
+ ██║██╔██╗ ██║██║   ██║██║   ██║██║██║     █████╗  █████╗  ██║     ██║   ██║██║ █╗ ██║
+ ██║██║╚██╗██║╚██╗ ██╔╝██║   ██║██║██║     ██╔══╝  ██╔══╝  ██║     ██║   ██║██║███╗██║
+ ██║██║ ╚████║ ╚████╔╝ ╚██████╔╝██║╚██████╗███████╗██║     ███████╗╚██████╔╝╚███╔███╔╝
+ ╚═╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝ ╚═╝ ╚═════╝╚══════╝╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝
+```
 
-A **premium, dark-themed invoice management SPA** — runs entirely in the browser, zero backend required.
+### 🧾 Professional Invoice Management — Free, Open Source, Zero Backend
+
+[![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript_5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/License-MIT_with_Attribution-7c3aed?style=for-the-badge)](./LICENSE)
+
+**Built with ❤️ by [Avegando AI Labs](https://www.avegandoailabs.com)**
+
+</div>
+
+---
 
 ## ✨ Features
 
-- 📊 **Dashboard** — live stats: total revenue, paid, pending, overdue
-- 📋 **Invoice List** — filter by status, search by client, sort by any column
-- ➕ **Create Invoices** — line items, VAT 19%, due dates, client details
-- 🔍 **Invoice Detail** — beautiful print-ready view, status management
-- 🔐 **Auth** — login with demo credentials
-- 💾 **localStorage persistence** — data survives page reloads, no server needed
-- 🎨 **Premium dark UI** — purple accent, Inter font, lucide-react icons
-- 📱 **Fully responsive**
+| Feature | Description |
+|---------|-------------|
+| 📊 **Dashboard** | Live revenue stats — total, paid, pending, overdue |
+| 📋 **Invoice List** | Filter by status, full-text search, instant sort |
+| ➕ **Create & Edit** | Line items, VAT 19%, due dates, client address |
+| 🖨️ **Print-Ready** | One-click `window.print()` with clean print layout |
+| 🔐 **Auth** | Simple login, session in localStorage |
+| 💾 **Zero Backend** | All data in localStorage — works offline, no server |
+| 🎨 **Premium Dark UI** | Violet accent, Inter font, lucide-react icons |
+| 📱 **Responsive** | Works on desktop, tablet & mobile |
 
 ## 🚀 Quick Start
 
@@ -27,48 +45,67 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173)
+Open **http://localhost:5173** and log in with the demo credentials.
 
-## 🔑 Demo Login
+## 🔑 Demo Credentials
 
-| Field | Value |
-|-------|-------|
-| Email | `admin@demo.de` |
-| Password | `admin123` |
+```
+Email:    admin@demo.de
+Password: admin123
+```
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| React 18 | UI framework |
-| TypeScript | Type safety |
-| Vite 5 | Build tool |
-| Tailwind CSS | Styling |
-| lucide-react | Icons |
-| react-router-dom v6 | Routing |
-| localStorage | Data persistence |
+```
+React 18 + TypeScript  →  UI & type safety
+Vite 5                 →  instant dev server + optimized builds
+Tailwind CSS 3         →  utility-first styling
+lucide-react           →  consistent icon set
+react-router-dom v6    →  client-side routing
+localStorage           →  zero-config persistence
+```
 
 ## 📁 Project Structure
 
 ```
-src/
-├── components/
-│   ├── Layout/      # Sidebar, AppLayout
-│   └── UI/          # Button, Card, Input, Badge, ConfirmDialog
-├── context/         # AuthContext, InvoiceContext
-├── pages/           # Login, Dashboard, InvoiceList, InvoiceForm, InvoiceDetail
-├── types/           # TypeScript interfaces
-└── utils/           # storage.ts, seed.ts, format.ts
+invoice-manager/
+├── src/
+│   ├── components/
+│   │   ├── Layout/        # Sidebar, AppLayout
+│   │   └── UI/            # StatusBadge (reusable)
+│   ├── context/           # AuthContext, InvoiceContext
+│   ├── pages/             # Login, Dashboard, List, Form, Detail
+│   ├── types/             # Invoice, LineItem, AuthUser interfaces
+│   └── utils/             # storage.ts, seed.ts, format.ts
+├── tailwind.config.js
+├── vite.config.ts
+└── package.json
 ```
 
-## 📸 Screenshots
+## 📄 License & Attribution
 
-> Dashboard with live revenue stats, dark premium design
+This project is licensed under the **MIT License with Attribution**.
 
-## 📄 License
+You are free to:
+- ✅ Use this project commercially
+- ✅ Modify and distribute it
+- ✅ Include it in your own products
 
-MIT — free to use, modify and distribute.
+**One condition:** You must include a visible backlink to the original creator:
+
+```
+Powered by InvoiceFlow — Built by Avegando AI Labs (https://www.avegandoailabs.com)
+```
+
+See [LICENSE](./LICENSE) for full terms.
 
 ---
 
-> Built with ❤️ by [avegando](https://github.com/avegando)
+<div align="center">
+
+**Made possible by [Avegando AI Labs](https://www.avegandoailabs.com)**
+*Building AI-powered tools that actually work.*
+
+⭐ If this saved you time, a star means a lot!
+
+</div>
