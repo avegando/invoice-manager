@@ -117,6 +117,14 @@ See [LICENSE](./LICENSE) for full terms.
 
 ---
 
+## 🤖 Built with NovaBotDev
+
+This project was generated and refined using **[NovaBotDev](https://www.avegandoailabs.com)** — an AI-powered app builder by Avegando AI Labs that turns plain text descriptions into fully functional, production-ready web applications in minutes.
+
+> *"Describe it. Build it. Ship it."*
+
+---
+
 <div align="center">
 
 **Made possible by [Avegando AI Labs](https://www.avegandoailabs.com)**
