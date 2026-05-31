@@ -16,6 +16,7 @@
 [![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT_with_Attribution-7c3aed?style=for-the-badge)](./LICENSE)
+[![Built with NovaBotDev](https://img.shields.io/badge/Built_with-NovaBotDev-7c3aed?style=for-the-badge)](https://nova-bot.dev)
 
 **Built with ❤️ by [Avegando AI Labs](https://www.avegandoailabs.com)**
 
@@ -119,9 +120,9 @@ See [LICENSE](./LICENSE) for full terms.
 
 ## 🤖 Built with NovaBotDev
 
-This project was generated and refined using **[NovaBotDev](https://www.avegandoailabs.com)** — an AI-powered app builder by Avegando AI Labs that turns plain text descriptions into fully functional, production-ready web applications in minutes.
+This project was generated using **[NovaBotDev](https://nova-bot.dev)** — an AI-powered app builder that turns plain text descriptions into fully functional, production-ready web applications in minutes.
 
-> *"Describe it. Build it. Ship it."*
+> **Try it yourself → [nova-bot.dev](https://nova-bot.dev)**
 
 ---
 
